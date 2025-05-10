@@ -1,0 +1,24 @@
+name: StashFileBrowser
+description: Browse and download any file on your system through StashApp
+version: 0.1
+url: 
+exec:
+  - javascript
+interface: js
+ui:
+  - library
+  - settings
+  - file_browser
+routes:
+  file_browser:
+    path: /filebrowser
+    displayName: File Browser
+    menu:
+      name: File Browser
+tasks:
+  - name: List Files
+    description: List all files in a directory
+    defaultArgs:
+      path: /
+javascript:
+  - stashFileBrowser.js

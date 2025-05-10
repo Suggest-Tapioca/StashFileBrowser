@@ -1,0 +1,10 @@
+name: Plugin Repository
+description: Contains the StashFileBrowser plugin
+url: https://Suggest-Tapioca.github.io/your-repo-name/
+version: 1.0
+plugins:
+  - id: StashFileBrowser
+    name: StashFileBrowser
+    description: Browse and download any file on your system through StashApp
+    version: 0.1
+    path: plugins/StashFileBrowser/StashFileBrowser.yml
