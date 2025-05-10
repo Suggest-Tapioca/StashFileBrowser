@@ -1,18 +1,16 @@
-name: StashFileBrowser
+name: Stash File Browser
 description: Browse and download any file on your system through StashApp
 version: 0.1
-url: 
+url: https://suggest-tapioca.github.io/StashFileBrowser/
 exec:
   - javascript
 interface: js
+javascript:
+  - stashFileBrowser.js
 ui:
-  - library
-  - settings
-  - file_browser
-routes:
   file_browser:
-    path: /filebrowser
     displayName: File Browser
+    path: /filebrowser
     menu:
       name: File Browser
 tasks:
@@ -20,5 +18,3 @@ tasks:
     description: List all files in a directory
     defaultArgs:
       path: /
-javascript:
-  - stashFileBrowser.js
