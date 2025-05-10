@@ -4,5 +4,5 @@
     description: Browse and download any file on your system through StashApp
   version: 0.1.0
   date: 2025-05-10 12:00:00
-  path: plugins/StashFileBrowser/StashFileBrowser.yml
-  sha256: aca8972751cd2d6afa29eaa2ddb0ed358d866cb100b6cb0d772f8ae91e134c4d
+  path: StashFileBrowser.zip
+  sha256: ddaae29d6063cb22f85de1f215e13e81f45a3928410da879be62c9a0235c0246
