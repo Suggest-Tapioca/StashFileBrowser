@@ -5,10 +5,8 @@ url: https://suggest-tapioca.github.io/StashFileBrowser/
 exec:
   - javascript
 interface: js
-javascript:
-  - stashFileBrowser.js
 ui:
-  file_browser:
+  - name: file_browser
     displayName: File Browser
     path: /filebrowser
     menu:
